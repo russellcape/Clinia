@@ -9,3 +9,4 @@ const fetchData = async() => {
 const $ = await fetchData();
 const postJobButton = $('.top > .action-post-job').text();
 console.log(postJobButton); // Logs 'Post a job'
+
