@@ -41,7 +41,7 @@ const getResults = async () => {
         tags: [...tags].sort(),
         locations: [...locations].sort(),
         categories: [...categories].sort(),
-        siteName
+        siteName,
     };
 };
 
